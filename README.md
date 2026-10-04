@@ -15,7 +15,7 @@ The data flows through three distinct layers to ensure data quality and integrit
 
 2.**Silver (Cleaned & Conformed):** Removing duplicates & data filtering, data normalization & standardization, handling of missing values, data transformation, data enrichment & establishing clean primary/foreign key relationships between CRM and ERP identities.
 
-3.**Gold (Curated Business Layer):**High-performance analytical views and aggregated tables optimized for BI reporting and executive decision-making.
+3.**Gold (Curated Business Layer):** High-performance analytical views and aggregated tables optimized for BI reporting and executive decision-making.
 
 ## Business Insights Delivered (The Golden Layer)
 
