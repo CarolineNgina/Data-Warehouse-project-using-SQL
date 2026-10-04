@@ -9,6 +9,24 @@ This project implements an end-to-end **Medallion Architecture data pipeline** t
 **Version Control:** Git & GitHub
 
 ## Data Architecture (Medallion Structure)
+The data flows through three distinct layers to ensure data quality and integrity:
+
+1.**Bronze (Raw Layer):** Direct, unaltered ingestion of CRM files(e.g.,) and ERP files (e.g., ).
+2.**Silver (Cleaned & Conformed):** Removing duplicates & data filtering, data normalization & standardization, handling of missing values, data transformation, data enrichment & establishing clean primary/foreign key relationships between CRM and ERP identities.
+3.**Gold (Curated Business Layer ):**High-performance analytical views and aggregated tables optimized for BI reporting and executive decision-making.
+
+## Business Insights Delivered (The Golden Layer)
+
+## How to Run the Scripts
+To execute this pipeline and build the data warehouse layers locally, follow these steps:
+
+1.**Prerequisites:** Ensure you have **Microsoft SQL Server** and **SQL Server Management Studio (SSMS)** installed and running.
+2.**Clone the Repository:**Clone this project to your local machine using Git or download it as a ZIP file.
+3.**Database Setup:** Open SSMS, connect to your server instance, and create a new target database for this project .
+4.**Execute Transformations:** Navigate to the '/scripts' folder in this repository. Open and execute the SQL scripts sequentially inside SSMS:
+  * Execute the staging scripts to prepare your raw **Bronze** tables.
+  * Execute the transformations queries to build your conformed **Silver** tables.
+  * Execute the final analytical queries to populate the aggregated business metrics in your **Gold** layer.
 
 
 
