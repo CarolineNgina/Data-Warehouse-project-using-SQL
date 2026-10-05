@@ -16,9 +16,11 @@ Usage Notes:
 ==========================================================================
 */
 
-
-
-
+-- ========================================================================
+-- Checking 'gold.dim_customers'
+-- =========================================================================
+-- Check for Uniqueness of customer key in gold.dim_customers
+-- Expectation: No results
 SELECT
     customer_key,
     COUNT(*) AS duplicate_count
