@@ -6,6 +6,7 @@ This project implements an end-to-end **Medallion Architecture data pipeline** t
 ## Tech Stack
 **Database Engine:**[ SQL Server]
 **Language:** SQL (DDL, DML, Window Functions, Aggregations)
+**Diagrams <!--e.g.draw.io-->
 **Version Control:** Git & GitHub
 
 ## Data Architecture (Medallion Structure)
