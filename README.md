@@ -15,11 +15,11 @@ This project implements an end-to-end **Medallion Architecture data pipeline** t
 ## Data Architecture (Medallion Structure)
 The data flows through three distinct layers to ensure data quality and integrity:
 
-1.**Bronze (Raw Layer):** Direct, unaltered ingestion of CRM files(e.g.,) and ERP files (e.g., ).
+**Bronze:**	Raw	Source files loaded as-is from CRM and ERP (CSV)
 
-2.**Silver (Cleaned & Conformed):** Removing duplicates & data filtering, data normalization & standardization, handling of missing values, data transformation, data enrichment & establishing clean primary/foreign key relationships between CRM and ERP identities.
+**Silver:**	Cleaned & conformed	Duplicate removal, filtering, standardisation, handling missing values, transformations, enrichment
 
-3.**Gold (Curated Business Layer):** High-performance analytical views and aggregated tables optimized for BI reporting and executive decision-making.
+**Gold:**	Business-ready	Star schema views for analytics and reporting
 
 ## Business Insights Delivered (The Golden Layer)
 
