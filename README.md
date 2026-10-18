@@ -63,8 +63,6 @@ The data flows through three distinct layers to ensure data quality and integrit
 
 **Gold:**	Business-ready	Star schema views for analytics and reporting
 
-## Business Insights Delivered (The Golden Layer)
-
 ## How to Run the Scripts
 To execute this pipeline and build the data warehouse layers locally, follow these steps:
 
