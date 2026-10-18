@@ -1,7 +1,11 @@
-# Enterprise Data Platform: CRM & ERP Integration Pipeline
+
 
 ## Project Overview
-This project implements an end-to-end **Medallion Architecture data pipeline** that integrates siloed data from corporate **CRM** and **ERP** systems. By extracting raw operational data, cleaning transactional anomalies, and modelling it into a business ready **Golden Layer** , this pipeline delivers a single unified view of customer profitability and inventory health.
+This project involves:
+1. Data Architecture: Designing a Modern Data Warehouse using Medallion Architecture Bronze, Silver and Gold layers.
+2. ETL Pipelines: Extracting, transforming and loading data from source systems into the warehouse.
+3. Data Modelling: Developing fact and dimension tables optimized for analytical queries.
+4. Analytics & Reporting: Creating SQL-based reports and dashboards for actionable insights.
 
 ## Tech Stack
 **Database Engine:** [ SQL Server]
