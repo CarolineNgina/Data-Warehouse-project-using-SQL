@@ -57,6 +57,9 @@ These insights empower stakeholders with key business metrics, enabling strategi
 ## Data Architecture (Medallion Structure)
 The data flows through three distinct layers to ensure data quality and integrity:
 
+![Data Architecture Diagram](docs/data_architecture_diagram.png)
+
+
 **Bronze:**	Raw	Source files loaded as-is from CRM and ERP (CSV)
 
 **Silver:**	Cleaned & conformed	Duplicate removal, filtering, standardisation, handling missing values, transformations, enrichment
