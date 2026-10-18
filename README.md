@@ -17,7 +17,7 @@ This project involves:
 
 **Version Control:** [Git](https://git-scm.com/) & [GitHub](https://github.com) — used to manage, version, and collaborate on the code
 
-**Project Management:** [Notion](https://www.notion.so/) — see the full [project plan and task breakdown](https://www.notion.so/your-actual-page-link) here
+**Project Management:** [Notion](https://www.notion.so/) — see the full [project plan and task breakdown](https://app.notion.com/p/DThe-Notion-Basics-3d1a24c39da18051806ef44c1df618a2?source=copy_link) here
 
 ## Data Architecture (Medallion Structure)
 The data flows through three distinct layers to ensure data quality and integrity:
