@@ -78,6 +78,34 @@ To execute this pipeline and build the data warehouse layers locally, follow the
   * Execute the staging scripts to prepare your raw **Bronze** tables.
   * Execute the transformations queries to build your conformed **Silver** tables.
   * Execute the final analytical queries to populate the aggregated business metrics in your **Gold** layer.
+    
+## Repository Structure
+
+```
+data-warehouse-project/
+│
+├── datasets/                          # Raw datasets used for the project (ERP and CRM data)
+│
+├── docs/                              # Project documentation and architecture details
+│   ├── etl.drawio
+│   ├── data_architecture.drawio
+│   ├── data_catalog.md
+│   ├── data_flow.drawio
+│   ├── data_models.drawio
+│   ├── naming-conventions.md
+│
+├── scripts/
+│   ├── bronze/
+│   ├── silver/
+│   ├── gold/
+│
+├── tests/
+│
+├── README.md
+├── LICENSE
+├── .gitignore
+└── requirements.txt
+```
 
 
 
