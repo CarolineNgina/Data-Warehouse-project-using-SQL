@@ -40,6 +40,17 @@ Develop a modern data warehouse using SQL Server to consolidate sales data, enab
 
 **. Documentation:** Provide clear documentation of the data model to support both business stakeholders and analytical teams.
 
+## BI: Analytics & Reporting (Data Analytics)
+
+**Objective**
+
+Develop SQL-based analytics to deliver detailed insights into:
+
+**. Customer Behavior**
+**. Product Performance**
+**. Sales Trends**
+These insights empower stakeholders with key business metrics, enabling strategic decision-making.
+
 ## Data Architecture (Medallion Structure)
 The data flows through three distinct layers to ensure data quality and integrity:
 
