@@ -8,13 +8,16 @@ This project involves:
 4. **Analytics & Reporting**: Creating SQL-based reports and dashboards for actionable insights.
 
 ## Tech Stack
-**Database Engine:** [ SQL Server]
+
+**Database Engine:** [SQL Server Express](https://www.microsoft.com/en-us/sql-server/sql-server-downloads) — lightweight server for hosting your SQL database
 
 **Language:** SQL (DDL, DML, Window Functions, Aggregations)
 
-**Diagrams:** e.g.draw.io
+**Diagrams:** [draw.io](https://www.drawio.com/) — used to design data architecture, models, flows, and diagrams
 
-**Version Control:** Git & GitHub
+**Version Control:** [Git](https://git-scm.com/) & [GitHub](https://github.com) — used to manage, version, and collaborate on the code
+
+**Project Management:** [Notion](https://www.notion.so/) — see the full [project plan and task breakdown](https://www.notion.so/your-actual-page-link) here
 
 ## Data Architecture (Medallion Structure)
 The data flows through three distinct layers to ensure data quality and integrity:
