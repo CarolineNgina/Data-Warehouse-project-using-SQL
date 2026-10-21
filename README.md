@@ -56,7 +56,6 @@ These insights empower stakeholders with key business metrics, enabling strategi
 
 ## Data Architecture (Medallion Structure)
 The data flows through three distinct layers to ensure data quality and integrity:
-
 ![Data Architecture Diagram](docs/data_architecture.png)
 
 
