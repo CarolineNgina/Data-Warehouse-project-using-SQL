@@ -15,5 +15,5 @@ My mathematics and statistics background means I don't just move data. I check t
 **[Data Warehouse Project using SQL](https://github.com/CarolineNgina/Data-Warehouse-project-using-SQL)**: an end-to-end warehouse integrating CRM and ERP data, with analytics-ready models for sales reporting.
 
 ## Let's Connect
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/your-profile)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/caroline-gathirimu-5b0177263)
 [![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/CarolineNgina)
